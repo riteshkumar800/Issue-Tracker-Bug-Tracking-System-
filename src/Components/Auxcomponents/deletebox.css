@@ -1,0 +1,45 @@
+.deletebox {
+    position: relative;
+    height: 60%;
+    width: 40%;
+}
+
+.deletebox-header {
+    display: flex;
+    justify-content: center;
+}
+
+.deletebox-header>div {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    height: 15%;
+    width: 93%;
+    background-color: #ff3b68;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.deletebox-footer {
+    position: absolute;
+    bottom: 0;
+    height: 93%;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.deleteModal-Content {
+    position: relative;
+    height: 70%;
+    width: 100%;
+}
+
+.deleteModal-Content>div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

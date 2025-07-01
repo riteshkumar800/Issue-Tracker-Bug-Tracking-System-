@@ -1,0 +1,29 @@
+.mainrow {
+    height: 80vh;
+    width: 80vw;
+}
+
+.userformcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.userform {
+    background-color: white;
+    height: 60%;
+}
+
+.userform>form {
+    height: 100%;
+}
+
+.rolemenu {
+    width: 100%;
+}
+
+.formbuttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
